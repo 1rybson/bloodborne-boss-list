@@ -1,0 +1,63 @@
+@media only screen and (max-width: 2560px){
+    .lewo, .prawo{
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .lewo, .prawo {
+        display: none;
+    }
+    .srodek{
+        width: 100%;
+        text-align: center;
+    }
+}
+.checked{
+    background-color: green;
+    color: black;
+    display: block;
+}
+
+.ikona{
+    display: none;
+}
+
+html{
+    background-color: rgb(22, 22, 22);
+}
+
+#content{
+    background-color: rgb(22, 22, 22);
+}
+
+ul li.checked{
+    background: green;
+    color: rgb(255, 255, 255);
+    text-decoration: line-through;
+}
+
+ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    background: rgb(54, 54, 54);
+    transition: 0.2s;
+    color: white;
+    user-select: none;
+}
+
+/* ul li:nth-child(odd){
+    background: rgb(70,70,70);
+} */
+
+
+ul li:hover{
+    background: black;
+}

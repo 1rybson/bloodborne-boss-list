@@ -276,8 +276,8 @@ if(localStorage.getItem("btn17")=="zielony"){
 }
 }
 
+//checked guzik zielony
 var list = document.querySelector('ul');
-//checked
 {
 list.addEventListener('click', function(el1) {
   if (el1.target.className === 'boss1') {
@@ -297,9 +297,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el2", "checked");
 
       var buton = document.querySelector('.btn2');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn2', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn2', 'zielony');
     }
   }, false);
 
@@ -309,9 +309,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el3", "checked");
 
       var buton = document.querySelector('.btn3');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn3', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn3', 'zielony');
     }
   }, false);
 
@@ -321,9 +321,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el4", "checked");
 
       var buton = document.querySelector('.btn4');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn4', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn4', 'zielony');
     }
   }, false);
 
@@ -333,9 +333,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el5", "checked");
 
       var buton = document.querySelector('.btn5');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn5', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn5', 'zielony');
     }
   }, false);
 
@@ -345,9 +345,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el6", "checked");
 
       var buton = document.querySelector('.btn6');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn6', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn6', 'zielony');
     }
   }, false);
 
@@ -357,9 +357,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el7", "checked");
 
       var buton = document.querySelector('.btn7');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn7', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn7', 'zielony');
     }
   }, false);
 
@@ -369,9 +369,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el8", "checked");
 
       var buton = document.querySelector('.btn8');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn8', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn8', 'zielony');
     }
   }, false);
 
@@ -381,9 +381,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el9", "checked");
       
       var buton = document.querySelector('.btn9');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn9', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn9', 'zielony');
     }
   }, false);
 
@@ -393,9 +393,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el10", "checked");
 
       var buton = document.querySelector('.btn10');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn10', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn10', 'zielony');
     }
   }, false);
 
@@ -405,9 +405,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el11", "checked");
 
       var buton = document.querySelector('.btn11');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn11', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn11', 'zielony');
     }
   }, false);
 
@@ -417,9 +417,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el12", "checked");
 
       var buton = document.querySelector('.btn12');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn12', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn12', 'zielony');
     }
   }, false);
 
@@ -429,9 +429,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el13", "checked");
       
       var buton = document.querySelector('.btn13');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn13', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn13', 'zielony');
     }
   }, false);
 
@@ -441,9 +441,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el14", "checked");
 
       var buton = document.querySelector('.btn14');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn14', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn14', 'zielony');
     }
   }, false);
 
@@ -453,9 +453,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el15", "checked");
 
       var buton = document.querySelector('.btn15');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn15', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn15', 'zielony');
     }
   }, false);
 
@@ -465,9 +465,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el16", "checked");
 
       var buton = document.querySelector('.btn16');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn16', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn16', 'zielony');
     }
   }, false);
 
@@ -477,9 +477,9 @@ list.addEventListener('click', function(el2) {
       localStorage.setItem("el17", "checked");
 
       var buton = document.querySelector('.btn17');
-    buton.classList.toggle('btn-dark');
-    buton.classList.toggle('btn-success');
-    localStorage.setItem('btn17', 'zielony');
+      buton.classList.toggle('btn-dark');
+      buton.classList.toggle('btn-success');
+      localStorage.setItem('btn17', 'zielony');
     }
   }, false);
 }

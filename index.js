@@ -1,3 +1,4 @@
+// var liczba = 0;
 //pokazywanie zdjec
 {
 function pokazZdjecie1(){
@@ -278,6 +279,8 @@ if(localStorage.getItem("btn17")=="zielony"){
 
 //checked guzik zielony
 var list = document.querySelector('ul');
+// var liczba = 0;
+
 {
 list.addEventListener('click', function(el1) {
   if (el1.target.className === 'boss1') {
@@ -289,6 +292,7 @@ list.addEventListener('click', function(el1) {
     buton.classList.toggle('btn-success');
     localStorage.setItem('btn1', 'zielony');
   }
+  
 }, false);
 
 list.addEventListener('click', function(el2) {
@@ -483,3 +487,5 @@ list.addEventListener('click', function(el2) {
     }
   }, false);
 }
+
+// document.getElementById("postep").innerHTML = liczba + "/17";

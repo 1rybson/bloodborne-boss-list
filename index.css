@@ -6,9 +6,9 @@
     .lewo, .prawo {
         display: none;
     }
+
     .srodek{
         width: 100%;
-        text-align: center;
     }
 }
 .checked{

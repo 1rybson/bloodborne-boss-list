@@ -1,7 +1,5 @@
 @media only screen and (max-width: 2560px){
-    .lewo, .prawo{
-        display: inline;
-    }
+    
 }
 
 @media only screen and (max-width: 425px){
@@ -72,6 +70,6 @@ li.checked:hover{
     height: auto;
 }
 
-/* .lista{
-    margin-right: 25px;
-} */
+.lista{
+    margin-right: 20px;
+}

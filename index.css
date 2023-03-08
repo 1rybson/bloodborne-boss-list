@@ -25,6 +25,7 @@
 
 html{
     background-color: rgb(22, 22, 22);
+    overflow-x: hidden;
 }
 
 #content{
@@ -53,11 +54,24 @@ ul li{
     user-select: none;
 }
 
-/* ul li:nth-child(odd){
-    background: rgb(70,70,70);
-} */
-
-
 ul li:hover{
-    background: black;
+    background:  rgb(22, 22, 22);
+}
+
+li.checked:hover{
+    background: rgb(0, 92, 0);
+}
+
+.hidden{
+    display: none;
+}
+
+.wyswietlZdjecie{
+    
+    width: 90%;
+    height: auto;
+}
+
+.lista{
+    margin-right: 30px;
 }
